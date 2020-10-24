@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+
+		<br>
+		<br>
+		<h1><b>Welcome to DiffiPedia</b></h1>
+		<h6>What would you like to Compare ?</h6>
+
+		<div class="input-field col s6">
+			<input id="last_name" type="text" class="validate">
+			<label for="last_name">Enter First Keyword</label>
+		</div>
+		<div class="input-field col s6">
+			<input id="last_name" type="text" class="validate">
+			<label for="last_name">Enter Second Keyword</label>
+		</div>
+		<!--    BUTTON     -->
+		<button class="btn waves-effect waves-light black" type="submit" name="action">Let's Compare
+			<i class="material-icons right">send</i>
+		</button>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		<!-- CARDS -->
+		<div class="row">
+			<div class="col s12 m4">
+				<div class="card grey darken-4">
+					<div class="card-content white-text">
+						<span class="card-title center">Space</span>
+						<ul>
+							<li>Planets</li>
+							<li>Stars</li>
+							<li>Satellite</li>
+							<li>Aliens</li>
+							<li>Galaxies</li>
+						</ul>
+					</div>
+					<div class="card-action">
+						<a href="#">Explore Full Section</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4">
+				<div class="card grey darken-4">
+					<div class="card-content white-text">
+						<span class="card-title center">Programming</span>
+						<ul>
+							<li>Python</li>
+							<li>JavaScript</li>
+							<li>JAVA</li>
+							<li>C Program</li>
+							<li>C++ </li>
+						</ul>
+					</div>
+					<div class="card-action">
+						<a href="#">Explore Full Section</a>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m4">
+				<div class="card grey darken-4">
+					<div class="card-content white-text">
+						<span class="card-title center">History</span>
+						<ul>
+							<li>India</li>
+							<li>World War</li>
+							<li>Stone Age</li>
+							<li>Revolutions</li>
+							<li>Dehuroad</li>
+						</ul>
+					</div>
+					<div class="card-action">
+						<a href="#">Explore Full Section</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	
+
+
+
+{% endblock %}

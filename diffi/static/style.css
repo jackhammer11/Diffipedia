@@ -1,0 +1,16 @@
+body {
+
+	background-color: rgb(201, 190, 162);
+}
+
+.f_headr {
+	background-color: black;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.s_headr {
+	background-color: black;
+	padding-left: 40px;
+	padding-right: 40px;
+}
