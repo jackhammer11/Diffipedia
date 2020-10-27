@@ -30,16 +30,17 @@
 		<li><a href="#!">three</a></li>
 	</ul>
 
-	<div class="navbar-fixed">
+	<div class="navbar-fixed ">
 		<nav>
 			<div class="nav-wrapper f_headr">
 				<a href="#!" class="brand-logo">Logo</a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="sass.html">Home</a></li>
-					<li><a href="sass.html">Contact</a></li>
-					<li><a href="sass.html">Privacy</a></li>
-					<li><a href="sass.html">About Us</a></li>
-					<li><a href="sass.html">Donate</a></li>
+					<li><a  class = "" href="{% url 'home' %}">Home</a></li>
+					<li><a  class = "" href="{% url 'contact' %}">Contact</a></li>
+					<li><a  class = ""  href="sass.html">Privacy</a></li>
+					<li><a  class = "" href="{% url 'about' %}">About Us</a></li>
+					<li><a  class = "" href="sass.html">Donate</a></li>
+		
 				</ul>
 			</div>
 		</nav>
@@ -69,11 +70,11 @@
 	<!-- ############################################## MAIN BODY ################################################ -->
 
 	
-<div class = "center container">
+<div class = "container">
 		{% block content %}
 		
 		{% endblock %}
-	</div>
+</div>
 
 
 
